@@ -11,26 +11,52 @@
 
 /* 버튼 배경색 및 테두리 */
 .btn {
-  color: rgba(255, 255, 255, 0.1) !important;
-  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
-.btn:hover {
-  background-color: rgba(255, 255, 255, 0.2) !important;
+.btn:hover { /* 마우스를 올렸을 때 살짝 더 밝게 */
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* 링크 텍스트 색상 (본문 내 링크) */
 section a {
   color: #236192; 
 }
+
+a:hover { /* 마우스를 올렸을 때 살짝 더 밝게 */
+  color: #45B1E8;
+}
+
+/* 모든 제목(h1~h6) 색상을 짙은 파란색 계열로 변경 */
+h1, h2, h3, h4, h5, h6 {
+  color: #236192; /* 헤더 왼쪽 색상과 맞춤 */
+}
+
+/* 기본 본문 글자색을 검은색으로 변경 */
+body {
+  color: #111111; /* 완전한 검정(#000)보다 눈이 덜 피로한 아주 진한 검정입니다 */
+}
+
+p {
+  color: #111111;
+}
+
+.right p {
+  color: #111111;
+}
+
+.contact {
+  color: #111111;
+}
   
 .main-content, 
 #content, 
 header, 
 footer {
-  max-width: none !important;
-  margin: 0 auto !important;
-  padding: 20px !important;
+  max-width: none;
+  margin: 0 auto;
+  padding: 20px;
 }
   
 .container {
@@ -58,8 +84,6 @@ footer {
   font-size: 0.95em;
   line-height: 2.4;
 }
-
-
       
 @media (max-width: 768px) {
   .container {
