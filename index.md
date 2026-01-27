@@ -41,7 +41,7 @@
 
 <div class="container">
 
-/* ############################ LEFT COLUMN ############################ */
+<!-- ############################ LEFT COLUMN ############################ -->
 <div class="left">
 <img src="assets/images/박종건_202511_1.jpg" class="profile-img" />
 
@@ -54,7 +54,7 @@
 
 </div>
 
-/* ############################ RIGHT COLUMN ############################ */
+<!-- ############################ RIGHT COLUMN ############################ -->
 <div class="right">
 ## About
 <p style="font-size:0.85em">
