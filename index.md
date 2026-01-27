@@ -1,6 +1,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+/* 상단 헤더 배경 (그라데이션 색상 변경) */
+.page-header {
+  color: #fff;
+  /* 원하는 색상 두 개를 골라 배치하세요 */
+  background-color: #236192; /* 배경색 */
+  background-image: linear-gradient(120deg, #236192, #45B1E8); /* 왼쪽에서 오른쪽으로 흐르는 색상 */
+}
+
+/* 버튼 배경색 및 테두리 */
+.btn {
+  color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* 링크 텍스트 색상 (본문 내 링크) */
+section a {
+  color: #236192; 
+}
+  
 .main-content, 
 #content, 
 header, 
@@ -121,6 +144,8 @@ Jeongjun Lee<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span 
 
 <a href="https://github.com/boingkiri/stabilizing_consistency" target="_blank">[GitHub]</a>
 </p>
+
+<br><br>
 
 </div>
 
