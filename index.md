@@ -98,17 +98,58 @@ footer {
 }
 </style>
 
+<style>
+/* 이미지와 레이어를 감싸는 박스 */
+.photo-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* 실제 프로필 이미지 */
+.profile-img {
+  width: 100%;
+  display: block;
+  pointer-events: none; /* 이미지가 마우스 이벤트를 가로채지 않게 함 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* 이미지 위에 덮인 투명 벽 */
+.protection-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0,0,0,0); /* 완전 투명 */
+  
+  /* 모바일에서 길게 눌러서 저장하는 것 방지 */
+  -webkit-touch-callout: none; 
+}
+</style>
+
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <div class="container">
 
 <div class="left">
-<img id="profile-photo" src="assets/images/박종건_202511_1.jpg" class="profile-img" />
+<div class="photo-wrapper" id="photo-container">
+  <img id="profile-photo" src="assets/images/박종건_202511_1.jpg" class="profile-img" />  
+  
+  <div class="protection-overlay"></div>
+</div>
 
 <div class="contact">
 <i class="fa-solid fa-location-dot"></i> Republic of Korea <br>
-<i class="fa-regular fa-envelope"></i> parkjonggeon@kaist.ac.kr <br>
+<i class="fa-regular fa-envelope"></i> <span class="reverse-email">rk.ca.tsiak@noeggnojkrap</span> <br>
 <i class="fa-brands fa-github"></i> <a href="https://github.com/Park-Jong-Geon">GitHub</a> <br>
 <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=jKGjOb4AAAAJ">Google Scholar</a>
 </div>
@@ -185,6 +226,7 @@ const photos = [
   "assets/images/박종건_202512.jpg",
 ];
 
+const container = document.getElementById("photo-container");
 const img = document.getElementById("profile-photo");
 let lastSrc = img.src;
 
@@ -199,6 +241,9 @@ function changeImage() {
   lastSrc = newSrc;
 }
 
-img.addEventListener("mouseenter", changeImage);
-img.addEventListener("click", changeImage);
+container.addEventListener("mouseenter", changeImage);
+container.addEventListener("click", changeImage);
+
+// 우클릭 방지 추가
+container.addEventListener("contextmenu", (e) => e.preventDefault());
 </script>
