@@ -4,7 +4,7 @@
 <style>      
 .container {
   display: flex;
-  max-width: 1100px;
+  max-width: 2400px;
   margin: auto;
   gap: 40px;
 }
@@ -28,13 +28,13 @@
   line-height: 2.4;
 }
 
-<!-- Mobile -->
+<!-- ############################ MOBILE ############################ -->
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .left, .right {
-    width: 100%;
+    width: 100% !important;
   }
 }
 </style>
