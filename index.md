@@ -3,7 +3,7 @@
       
 <style>
 .main-content {
-  max-width: 2400px;
+  max-width: 2400px !important;
 }
       
 .container {
