@@ -1,6 +1,12 @@
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+.page-header,
+.main-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 <style>
 .container {
   display: flex;
