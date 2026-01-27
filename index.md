@@ -149,7 +149,7 @@ footer {
 
 <div class="contact">
 <i class="fa-solid fa-location-dot"></i> Republic of Korea <br>
-<i class="fa-regular fa-envelope"></i> [last name][first name][at]kaist[dot]ac[dot]kr <br>
+<i class="fa-regular fa-envelope"></i> <span style="font-size:0.5em">[last name][first name][at]kaist[dot]ac[dot]kr</span> <br>
 <i class="fa-brands fa-github"></i> <a href="https://github.com/Park-Jong-Geon">GitHub</a> <br>
 <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=jKGjOb4AAAAJ">Google Scholar</a>
 </div>
