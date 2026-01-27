@@ -81,6 +81,8 @@ footer {
   width: 100%;
   border-radius: 0%;
   margin-bottom: 20px;
+  -webkit-tap-highlight-color: transparent; 
+  cursor: pointer
 }
 
 .contact {
@@ -96,9 +98,7 @@ footer {
     width: 100%;
   }
 }
-</style>
 
-<style>
 /* 이미지와 레이어를 감싸는 박스 */
 .photo-wrapper {
   position: relative;
@@ -133,6 +133,13 @@ footer {
   /* 모바일에서 길게 눌러서 저장하는 것 방지 */
   -webkit-touch-callout: none; 
 }
+
+.reverse-email {
+  display: inline-block;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  cursor: text;
+}
 </style>
 
 <link rel="stylesheet"
@@ -163,7 +170,7 @@ footer {
 <p style="font-size:0.85em">
 Welcome, and thank you for visiting my homepage.<br>
 <br>
-I am currently a student at <span style="font-weight: 500;">CHA University Graduate School of Medicine</span>, with a strong academic interest in artificial intelligence and its applications in medicine. Prior to pursuing medical training, I received my master’s degree from <span style="font-weight: 500;">Kim Jaechul Graduate School of Artificial Intelligence at KAIST</span>, under the supervision of Professor <span style="font-weight: 500;">Juho Lee</span>, following a bachelor’s degree in Electrical Engineering, also from <span style="font-weight: 500;">KAIST</span>.<br>
+I am currently a student at <span style="font-weight: 600;">CHA University Graduate School of Medicine</span>, with a strong academic interest in artificial intelligence and its applications in medicine. Prior to pursuing medical training, I received my master’s degree from <span style="font-weight: 600;">Kim Jaechul Graduate School of Artificial Intelligence at KAIST</span>, under the supervision of Professor <span style="font-weight: 600;">Juho Lee</span>, following a bachelor’s degree in Electrical Engineering, also from <span style="font-weight: 600;">KAIST</span>.<br>
 <br>
 During my master’s studies, I focused on generative models—particularly diffusion models and flow matching—with an emphasis on extending their applicability beyond image-based domains. Through this work, I developed a growing interest in AI-driven drug discovery and protein generation. These experiences ultimately shaped my broader vision of artificial intelligence as a transformative force in medicine and motivated my decision to pursue medical training.<br>
 <br>
