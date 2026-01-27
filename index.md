@@ -1,13 +1,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-.main-content {
-  max-width: 2400px;
-}
-
 .container {
   display: flex;
-  max-width: 2400px;
   margin: auto;
   gap: 40px;
 }
@@ -131,7 +126,7 @@ const photos = [
 const img = document.getElementById("profile-photo");
 let lastSrc = img.src;
 
-img.addEventListener("mouseenter", () => {
+function changeImage() {
   let newSrc;
   do {
     const randomIndex = Math.floor(Math.random() * photos.length);
@@ -140,5 +135,8 @@ img.addEventListener("mouseenter", () => {
   
   img.src = newSrc;
   lastSrc = newSrc;
-});
+}
+
+img.addEventListener("mouseenter", changeImage);
+img.addEventListener("click", changeImage);
 </script>
