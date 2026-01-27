@@ -28,26 +28,24 @@ a:hover { /* 마우스를 올렸을 때 살짝 더 밝게 */
   color: #45B1E8;
 }
 
-/* 모든 제목(h1~h6) 색상을 짙은 파란색 계열로 변경 */
-h1, h2, h3, h4, h5, h6 {
-  color: #236192; /* 헤더 왼쪽 색상과 맞춤 */
+.page-header h1, 
+.project-name {
+  color: #ffffff;
+}
+
+.page-header h2, 
+.project-tagline {
+  color: rgba(255, 255, 255, 0.8); /* 상단 설명 문구도 흰색 계열 */
+}
+
+/* 2. 본문 제목 (About, Publications) 설정 */
+h2, h3, h4 {
+  color: #236192 !important; /* 본문의 제목들만 파란색으로 변경 */
 }
 
 /* 기본 본문 글자색을 검은색으로 변경 */
-body {
-  color: #111111; /* 완전한 검정(#000)보다 눈이 덜 피로한 아주 진한 검정입니다 */
-}
-
-p {
-  color: #111111;
-}
-
-.right p {
-  color: #111111;
-}
-
-.contact {
-  color: #111111;
+body, p, div, .right p, .contact {
+  color: #222222; /* 모든 본문 글자를 진한 검은색으로 */
 }
   
 .main-content, 
