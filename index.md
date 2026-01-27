@@ -1,16 +1,16 @@
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+<style>
 .page-header,
 .main-content {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
-<style>
+      
 .container {
   display: flex;
-  max-width: 1600px;
+  max-width: 3200px;
   margin: auto;
   gap: 40px;
 }
