@@ -1,7 +1,10 @@
-<link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-      
-<style>      
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+.main-content {
+  max-width: 2400px;
+}
+
 .container {
   display: flex;
   max-width: 2400px;
@@ -28,20 +31,23 @@
   line-height: 2.4;
 }
 
-<!-- ############################ MOBILE ############################ -->
+
+      
 @media (max-width: 768px) {
   .container {
-    flex-direction: column !important;
+    flex-direction: column;
   }
   .left, .right {
-    width: 100% !important;
+    width: 100%;
   }
 }
 </style>
 
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <div class="container">
 
-<!-- ############################ LEFT COLUMN ############################ -->
 <div class="left">
 <img id="profile-photo" src="assets/images/박종건_202511_1.jpg" class="profile-img" />
 
@@ -54,7 +60,8 @@
 
 </div>
 
-<!-- ############################ RIGHT COLUMN ############################ -->
+
+
 <div class="right">
 <h2>About</h2>
 <p style="font-size:0.85em">
