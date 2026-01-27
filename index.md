@@ -40,7 +40,7 @@ a:hover { /* 마우스를 올렸을 때 살짝 더 밝게 */
 
 /* 2. 본문 제목 (About, Publications) 설정 */
 h2, h3, h4 {
-  color: #236192 !important; /* 본문의 제목들만 파란색으로 변경 */
+  color: #3481B5 !important; /* 본문의 제목들만 파란색으로 변경 */
 }
 
 /* 기본 본문 글자색을 검은색으로 변경 */
@@ -117,7 +117,7 @@ footer {
 <p style="font-size:0.85em">
 Welcome, and thank you for visiting my homepage.<br>
 <br>
-I am currently a student at <span style="font-weight: 550;">CHA University Graduate School of Medicine</span>, with a strong academic interest in artificial intelligence and its applications in medicine. Prior to pursuing medical training, I received my master’s degree from <span style="font-weight: 550;">Kim Jaechul Graduate School of Artificial Intelligence at KAIST</span>, under the supervision of Professor <span style="font-weight: 550;">Juho Lee</span>, following a bachelor’s degree in Electrical Engineering, also from <span style="font-weight: 550;">KAIST</span>.<br>
+I am currently a student at <span style="font-weight: 500;">CHA University Graduate School of Medicine</span>, with a strong academic interest in artificial intelligence and its applications in medicine. Prior to pursuing medical training, I received my master’s degree from <span style="font-weight: 500;">Kim Jaechul Graduate School of Artificial Intelligence at KAIST</span>, under the supervision of Professor <span style="font-weight: 500;">Juho Lee</span>, following a bachelor’s degree in Electrical Engineering, also from <span style="font-weight: 500;">KAIST</span>.<br>
 <br>
 During my master’s studies, I focused on generative models—particularly diffusion models and flow matching—with an emphasis on extending their applicability beyond image-based domains. Through this work, I developed a growing interest in AI-driven drug discovery and protein generation. These experiences ultimately shaped my broader vision of artificial intelligence as a transformative force in medicine and motivated my decision to pursue medical training.<br>
 <br>
