@@ -1,16 +1,14 @@
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-<style>
-.main-content {
-  max-width: none;
-}
-</style>
       
 <style>
+.main-content {
+  max-width: 2400px;
+}
+      
 .container {
   display: flex;
-  max-width: 1600px;
+  max-width: 2400px;
   margin: auto;
   gap: 40px;
 }
