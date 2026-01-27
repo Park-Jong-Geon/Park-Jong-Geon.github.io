@@ -4,7 +4,7 @@
 <style>      
 .container {
   display: flex;
-  max-width: 3000px;
+  max-width: 4400px;
   margin: auto;
   gap: 40px;
 }
