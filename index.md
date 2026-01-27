@@ -62,7 +62,7 @@
 
 <!-- ############################ RIGHT COLUMN ############################ -->
 <div class="right">
-## About
+<h2>About</h2>
 <p style="font-size:0.85em">
 Welcome, and thank you for visiting my homepage.<br>
 <br>
@@ -73,7 +73,7 @@ During my master’s studies, I focused on generative models—particularly diff
 I believe, as many do, that the integration of artificial intelligence into clinical practice will fundamentally expand the boundaries of medicine in the near future. I hope to contribute to this ongoing transformation as a clinician-scientist. I welcome any discussions on medical AI research, interdisciplinary collaboration, and the future role of artificial intelligence in clinical medicine.
 </p>
 
-## Publications
+<h2>Publications</h2>
 
 <p style="font-size:1em; margin: 0px 0px 0px 0px;">
 Axial Neural Networks for Dimension-Free Foundation Models
