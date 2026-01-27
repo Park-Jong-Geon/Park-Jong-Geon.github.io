@@ -20,12 +20,17 @@
 }
 
 /* 링크 텍스트 색상 (본문 내 링크) */
-section a {
-  color: #236192; 
+a {
+  color: #3481B5; 
 }
 
 a:hover { /* 마우스를 올렸을 때 살짝 더 밝게 */
   color: #45B1E8;
+}
+
+.contact a {
+  color: #3481B5;
+  font-weight: bold;
 }
 
 .page-header h1, 
