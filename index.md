@@ -8,7 +8,7 @@
       
 .container {
   display: flex;
-  max-width: 3600px;
+  max-width: 3000px;
   margin: auto;
   gap: 40px;
 }
