@@ -1,16 +1,10 @@
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<style>
-.page-header,
-.main-content {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-      
+<style>      
 .container {
   display: flex;
-  max-width: 3200px;
+  max-width: 3000px;
   margin: auto;
   gap: 40px;
 }
@@ -81,7 +75,7 @@ Axial Neural Networks for Dimension-Free Foundation Models
 
 <p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
 Hyunsu Kim, <strong>Jonggeon Park</strong>, Joan Bruna, Hongseok Yang, Juho Lee<br>
-<em>The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025
+<em>The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025 <br>
 
 <a href="https://arxiv.org/pdf/2510.13665" target="_blank">[Paper]</a>
 </p>
@@ -94,7 +88,7 @@ Ensemble Distribution Distillation via Flow Matching
 
 <p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
 <strong>Jonggeon Park</strong><span class="eq-star">*</span>, Giung Nam<span class="eq-star">*</span>, Hyunsu Kim, Jongmin Yoon, Juho Lee<br>
-<em>Forty-second International Conference on Machine Learning (ICML)</em>, 2025
+<em>Forty-second International Conference on Machine Learning (ICML)</em>, 2025 <br>
 
 <a href="https://openreview.net/pdf?id=waeJHU2oeI" target="_blank">[Paper]</a>
 
@@ -109,7 +103,7 @@ Stabilizing the training of consistency models with score guidance
 
 <p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
 Jeongjun Lee<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span class="eq-star">*</span>, Jongmin Yoon, Juho Lee<br>
-<em>ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling</em>, 2024
+<em>ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling</em>, 2024 <br>
 
 <a href="https://openreview.net/pdf?id=6Q5828tzlp" target="_blank">[Paper]</a>
 
