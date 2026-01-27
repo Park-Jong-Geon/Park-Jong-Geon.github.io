@@ -25,6 +25,7 @@
   width: 100%;
   border-radius: 0%;
   margin-bottom: 20px;
+  transition: opacity 0.2s ease;
 }
 
 .contact {
@@ -47,7 +48,7 @@
 
 <!-- ############################ LEFT COLUMN ############################ -->
 <div class="left">
-<img src="assets/images/박종건_202511_1.jpg" class="profile-img" />
+<img id="profile-photo" src="assets/images/박종건_202511_1.jpg" class="profile-img" />
 
 <div class="contact">
 <i class="fa-solid fa-location-dot"></i> Republic of Korea <br>
@@ -117,3 +118,23 @@ Jeongjun Lee<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span 
 </div>
 
 </div>
+
+<script>
+const mainPhoto = "assets/박종건_202511_1.jpg";
+const otherPhotos = [
+  "assets/images/박종건_202511_2.jpg",
+  "assets/images/박종건_202512.jpg",
+  "assets/images/박종건_202502.jpg"
+];
+
+const img = document.getElementById("profile-photo");
+
+img.addEventListener("mouseenter", () => {
+  const randomIndex = Math.floor(Math.random() * otherPhotos.length);
+  img.src = otherPhotos[randomIndex];
+});
+
+img.addEventListener("mouseleave", () => {
+  img.src = mainPhoto;
+});
+</script>
