@@ -5,10 +5,15 @@
 .main-content {
   max-width: 2400px !important;
 }
+
+.page-header {
+  max-width: 2400px !important;
+  margin: auto;
+}
       
 .container {
   display: flex;
-  max-width: 2400px;
+  max-width: 2400px !important;
   margin: auto;
   gap: 40px;
 }
