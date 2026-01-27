@@ -87,9 +87,6 @@ footer {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-tap-highlight-color: transparent; 
-  cursor: pointer;
-  -webkit-touch-callout: none;
 }
 
 .contact {
@@ -125,9 +122,16 @@ footer {
   height: 100%;
   z-index: 10;
   background: rgba(0,0,0,0); /* 완전 투명 */
-  -webkit-tap-highlight-color: transparent; 
-  cursor: pointer
-  -webkit-touch-callout: none; /* 모바일에서 길게 눌러서 저장하는 것 방지 */
+}
+
+canvas, 
+img, 
+video,
+.profile-img,
+.photo-wrapper, 
+.protection-overlay {
+  -webkit-tap-highlight-color: transparent; /* 하이라이트 색상을 투명하게 설정 */
+  -webkit-touch-callout: none; /* iOS에서 길게 눌렀을 때 메뉴 뜨는 것 방지 (이미지 보호 강화) */
 }
 </style>
 
