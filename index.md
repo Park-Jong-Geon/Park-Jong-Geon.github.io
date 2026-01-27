@@ -25,7 +25,6 @@
   width: 100%;
   border-radius: 0%;
   margin-bottom: 20px;
-  transition: opacity 0.2s ease;
 }
 
 .contact {
@@ -127,18 +126,16 @@ const photos = [
 ];
 
 const img = document.getElementById("profile-photo");
+let lastSrc = img.src;
 
 img.addEventListener("mouseenter", () => {
   let newSrc;
   do {
     const randomIndex = Math.floor(Math.random() * photos.length);
     newSrc = photos[randomIndex];
-  } while (newSrc === img.src);
+  } while (newSrc === lastSrc);
   
-  img.style.opacity = 0;
-  setTimeout(() => {
-    img.src = newSrc;
-    img.style.opacity = 1;
-  }, 200);
+  img.src = newSrc;
+  lastSrc = newSrc;
 });
 </script>
