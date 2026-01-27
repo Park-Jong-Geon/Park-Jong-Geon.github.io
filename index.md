@@ -120,21 +120,25 @@ Jeongjun Lee<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span 
 </div>
 
 <script>
-const mainPhoto = "assets/박종건_202511_1.jpg";
-const otherPhotos = [
+const photos = [
+  "assets/images/박종건_202511_1.jpg",
   "assets/images/박종건_202511_2.jpg",
   "assets/images/박종건_202512.jpg",
-  "assets/images/박종건_202502.jpg"
 ];
 
 const img = document.getElementById("profile-photo");
 
 img.addEventListener("mouseenter", () => {
-  const randomIndex = Math.floor(Math.random() * otherPhotos.length);
-  img.src = otherPhotos[randomIndex];
-});
-
-img.addEventListener("mouseleave", () => {
-  img.src = mainPhoto;
+  let newSrc;
+  do {
+    const randomIndex = Math.floor(Math.random() * photos.length);
+    newSrc = photos[randomIndex];
+  } while (newSrc === img.src);
+  
+  img.style.opacity = 0;
+  setTimeout(() => {
+    img.src = newSrc;
+    img.style.opacity = 1;
+  }, 200);
 });
 </script>
