@@ -4,7 +4,7 @@
 <style>
 .container {
   display: flex;
-  max-width: 1100px;
+  max-width: 1600px;
   margin: auto;
   gap: 40px;
 }
@@ -25,10 +25,10 @@
 
 .contact {
   font-size: 0.95em;
-  line-height: 1.6;
+  line-height: 2.4;
 }
 
-/* 모바일 환 */
+<!-- Mobile -->
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
