@@ -5,9 +5,9 @@
 #content, 
 header, 
 footer {
-  max-width: 1100px !important; /* 위 container와 맞추거나 약간 더 넓게 */
+  max-width: none !important;
   margin: 0 auto !important;
-  padding: 20px !important; /* 모바일 가독성을 위한 패딩 */
+  padding: 20px !important;
 }
   
 .container {
