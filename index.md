@@ -3,9 +3,11 @@
 
 <style>
 .main-content {
-  max-width: none !important;
+  max-width: none;
 }
+</style>
       
+<style>
 .container {
   display: flex;
   max-width: 1600px;
