@@ -133,13 +133,6 @@ footer {
   /* 모바일에서 길게 눌러서 저장하는 것 방지 */
   -webkit-touch-callout: none; 
 }
-
-.reverse-email {
-  display: inline-block;
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  cursor: text;
-}
 </style>
 
 <link rel="stylesheet"
@@ -156,7 +149,7 @@ footer {
 
 <div class="contact">
 <i class="fa-solid fa-location-dot"></i> Republic of Korea <br>
-<i class="fa-regular fa-envelope"></i> <span class="reverse-email">rk.ca.tsiak@noeggnojkrap</span> <br>
+<i class="fa-regular fa-envelope"></i> [last name][first name][at]kaist[dot]ac[dot]kr <br>
 <i class="fa-brands fa-github"></i> <a href="https://github.com/Park-Jong-Geon">GitHub</a> <br>
 <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=jKGjOb4AAAAJ">Google Scholar</a>
 </div>
