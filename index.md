@@ -81,8 +81,15 @@ footer {
   width: 100%;
   border-radius: 0%;
   margin-bottom: 20px;
+  display: block;
+  pointer-events: none; /* 이미지가 마우스 이벤트를 가로채지 않게 함 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-tap-highlight-color: transparent; 
-  cursor: pointer
+  cursor: pointer;
+  -webkit-touch-callout: none;
 }
 
 .contact {
@@ -109,17 +116,6 @@ footer {
   margin-bottom: 20px;
 }
 
-/* 실제 프로필 이미지 */
-.profile-img {
-  width: 100%;
-  display: block;
-  pointer-events: none; /* 이미지가 마우스 이벤트를 가로채지 않게 함 */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 /* 이미지 위에 덮인 투명 벽 */
 .protection-overlay {
   position: absolute;
@@ -129,9 +125,9 @@ footer {
   height: 100%;
   z-index: 10;
   background: rgba(0,0,0,0); /* 완전 투명 */
-  
-  /* 모바일에서 길게 눌러서 저장하는 것 방지 */
-  -webkit-touch-callout: none; 
+  -webkit-tap-highlight-color: transparent; 
+  cursor: pointer
+  -webkit-touch-callout: none; /* 모바일에서 길게 눌러서 저장하는 것 방지 */
 }
 </style>
 
@@ -201,7 +197,7 @@ Ensemble Distribution Distillation via Flow Matching
 <hr>
 
 <p style="font-size:1em; margin: 0px 0px 0px 0px;">
-Stabilizing the training of consistency models with score guidance
+Stabilizing the Training of Consistency Models with Score Guidance
 </p>
 
 <p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
