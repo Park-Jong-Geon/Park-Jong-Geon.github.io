@@ -173,6 +173,21 @@ I believe, as many do, that the integration of artificial intelligence into clin
 <h2>Publications</h2>
 
 <p style="font-size:1em; margin: 0px 0px 0px 0px;">
+ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection
+</p>
+
+<p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
+Deokyun Kim<span class="eq-star">*</span>, Jeongjun Lee<span class="eq-star">*</span>, Jungwon Choi<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span class="eq-star">*</span>, Giyoung Lee, Yookyung Kim, Myungseok Ki, Juho Lee, Jihun Cha<br>
+<em>The Fourteenth International Conference on Learning Representations (ICLR)</em>, 2026 <br>
+
+<a href="https://openreview.net/forum?id=ZC2N9q8USm" target="_blank">[Paper]</a>
+
+<a href="https://huggingface.co/datasets/anonreviewer2026/under-canopy-benchmark-anon" target="_blank">[HuggingFace]</a>
+</p>
+
+<hr>
+
+<p style="font-size:1em; margin: 0px 0px 0px 0px;">
 Axial Neural Networks for Dimension-Free Foundation Models
 </p>
 
@@ -211,21 +226,6 @@ Jeongjun Lee<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span 
 <a href="https://openreview.net/pdf?id=6Q5828tzlp" target="_blank">[Paper]</a>
 
 <a href="https://github.com/boingkiri/stabilizing_consistency" target="_blank">[GitHub]</a>
-</p>
-
-<hr>
-
-<p style="font-size:1em; margin: 0px 0px 0px 0px;">
-ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection
-</p>
-
-<p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
-Deokyun Kim<span class="eq-star">*</span>, Jeongjun Lee<span class="eq-star">*</span>, Jungwon Choi<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span class="eq-star">*</span>, Giyoung Lee, Yookyung Kim, Myungseok Ki, Juho Lee, Jihun Cha<br>
-<em>ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling</em>, 2024 <br>
-
-<a href="https://openreview.net/forum?id=ZC2N9q8USm" target="_blank">[Paper]</a>
-
-<a href="https://huggingface.co/datasets/anonreviewer2026/under-canopy-benchmark-anon" target="_blank">[HuggingFace]</a>
 </p>
 
 <br>
