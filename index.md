@@ -213,7 +213,22 @@ Jeongjun Lee<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span 
 <a href="https://github.com/boingkiri/stabilizing_consistency" target="_blank">[GitHub]</a>
 </p>
 
-<br><br>
+<hr>
+
+<p style="font-size:1em; margin: 0px 0px 0px 0px;">
+ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection
+</p>
+
+<p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
+Deokyun Kim<span class="eq-star">*</span>, Jeongjun Lee<span class="eq-star">*</span>, Jungwon Choi<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span class="eq-star">*</span>, Giyoung Lee, Yookyung Kim, Myungseok Ki, Juho Lee, Jihun Cha<br>
+<em>ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling</em>, 2024 <br>
+
+<a href="https://openreview.net/forum?id=ZC2N9q8USm" target="_blank">[Paper]</a>
+
+<a href="https://huggingface.co/datasets/anonreviewer2026/under-canopy-benchmark-anon" target="_blank">[HuggingFace]</a>
+</p>
+
+<br>
 
 </div>
 
