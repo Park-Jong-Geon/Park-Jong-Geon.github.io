@@ -180,9 +180,9 @@ ForestPersons: A Large-Scale Dataset for Under-Canopy Missing Person Detection
 Deokyun Kim<span class="eq-star">*</span>, Jeongjun Lee<span class="eq-star">*</span>, Jungwon Choi<span class="eq-star">*</span>, <strong>Jonggeon Park</strong><span class="eq-star">*</span>, Giyoung Lee, Yookyung Kim, Myungseok Ki, Juho Lee, Jihun Cha<br>
 <em>The Fourteenth International Conference on Learning Representations (ICLR)</em>, 2026 <br>
 
-<a href="https://openreview.net/forum?id=ZC2N9q8USm" target="_blank">[Paper]</a>
+<a href="https://openreview.net/pdf?id=ZC2N9q8USm" target="_blank">[Paper]</a>
 
-<a href="https://huggingface.co/datasets/anonreviewer2026/under-canopy-benchmark-anon" target="_blank">[HuggingFace]</a>
+<a href="https://huggingface.co/datasets/etri/ForestPersons" target="_blank">[HuggingFace]</a>
 </p>
 
 <hr>
@@ -196,6 +196,8 @@ Hyunsu Kim, <strong>Jonggeon Park</strong>, Joan Bruna, Hongseok Yang, Juho Lee<
 <em>The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025 <br>
 
 <a href="https://arxiv.org/pdf/2510.13665" target="_blank">[Paper]</a>
+
+<a href="https://github.com/kim-hyunsu/XNN" target="_blank">[GitHub]</a>
 </p>
 
 <hr>
