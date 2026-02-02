@@ -194,6 +194,7 @@ Axial Neural Networks for Dimension-Free Foundation Models
 <p style="font-size:0.8em; margin: 0px 0px 0px 0px;">
 Hyunsu Kim, <strong>Jonggeon Park</strong>, Joan Bruna, Hongseok Yang, Juho Lee<br>
 <em>The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025 <br>
+(Spotlight Presentation; Top 3.2%) <br>
 
 <a href="https://arxiv.org/pdf/2510.13665" target="_blank">[Paper]</a>
 
